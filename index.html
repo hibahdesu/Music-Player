@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Music Player</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="mix">
+            <nav>
+                
+                <ul>
+                    <li>Home <span></span></li>
+                    <li>Music</li>
+                    <li>Singers</li>
+                </ul>
+
+                <div class="search">
+                    <i class="bi bi-search"></i>
+                    <input type="text" name="" id="" placeholder="Search music...">
+                    <div class="search_results">
+                        
+                       <!-- <a href="" class="card">
+                            <img src="images/Harry.jpg" alt="" class="card_img">
+                            <div class="content">
+                                <h5>On my way</h5>
+                                <span>Harry</span>
+                            </div>
+                        </a> -->
+
+                    </div>
+                </div>
+            </nav>
+
+            <div class="songs_types">
+                <div class="popular_song">
+                    <div class="h4">
+                        <h4>Popular Song</h4>
+                    </div>
+                    <div class="pop__song">
+<!--
+                        <li class="songItem">
+                            <div class="img__play">
+                                <img src="images/hqdefault.jpg" alt="">
+                                <i class="bi playListPlay bi-play-circle-fill" id="3"></i>
+    
+                            </div>
+                            <h5>On My Way <br> <div class="subtitle">Alan Walker</div> </h5>
+                        </li>
+                        -->
+                    </div>
+                    <!--buttons-->
+                    <div class="btn_s">           
+                        <i class="bi bi-arrow-left-short" id="pop_song_left"></i>
+                        <i class="bi bi-arrow-right-short" id="pop_song_right"></i>                    
+                    </div>
+                </div>  <!--popular songs end-->
+
+                <div class="songs">
+                    <div class="h4">
+                        <h4>English Songs</h4>
+                        <h5>Alan Walker</h5>
+                    </div>
+                    <div class="pop__song">
+
+                        <!--<li class="songItem">
+                            <div class="img__play">
+                                <img src="images/hqdefault.jpg" alt="">
+                                <i class="bi playListPlay bi-play-circle-fill" id="20"></i>
+    
+                            </div>
+                            <h5>On My Way <br> <div class="subtitle">Alan Walker</div> </h5>
+                        </li>-->
+                        
+                    </div> 
+                    <!--buttons-->
+                    <div class="btn_s">           
+                        <i class="bi bi-arrow-left-short"  id="left_two"></i>
+                        <i class="bi bi-arrow-right-short" id="right_two"></i>                    
+                    </div>
+                </div>
+
+                <div class="songs">
+                    <div class="h4">
+                        <h4>English Songs</h4>
+                        <h5>Hennry</h5>
+                    </div>
+                    <div class="pop__song">
+                    </div>
+                    <!--buttons-->
+                    <div class="btn_s">           
+                        <i class="bi bi-arrow-left-short" id="left_three"></i>
+                        <i class="bi bi-arrow-right-short" id="right_three"></i>                    
+                    </div>
+                </div>
+
+                <div class="songs">
+                    <div class="h4">
+                        <h4>English Songs</h4>
+                        <h5>Alan Walker</h5>
+                    </div>
+                    <div class="pop__song">
+                    </div>
+                    <!--buttons-->
+                    <div class="btn_s">           
+                        <i class="bi bi-arrow-left-short" id="left_four"></i>
+                        <i class="bi bi-arrow-right-short" id="right_four"></i>                    
+                    </div>
+                </div>
+            </div> <!--songs_types end-->
+        </div> <!--mix End-->
+
+
+        <div class="player">
+            <!--List Section-->
+            <header class="up_side">
+                <i class="bi bi-list"></i>
+
+                <div class="music_list hide">
+                    <div class="title">
+                        <div class="row">
+                            <i class="bi bi-music-note-list"></i>
+                            <span>Music List</span>
+                        </div>
+                        <i class="bi bi-x-lg" id="close"></i>
+                    </div>
+
+                    <ul id="playLists">
+                        <!--
+                        <li>
+                            <div class="row">
+                                <span>Ikon Anywhere - Ikon</span>
+                                <h6>Audio Library</h6>
+                            </div>
+                            <i class="bi playList bi-play-circle-fill" id="1"></i>
+
+                            <span class=" audio-duratiion">3:00</span>
+                            <audio src="" id="listaudio"></audio>
+                        </li>
+
+                        <li>
+                            <div class="row">
+                                <span>Ikon Anywhere - Ikon</span>
+                                <h6>Audio Library</h6>
+                            </div>
+                            <i class="bi playList bi-play-circle-fill" id="1"></i>
+
+                            <span class=" audio-duratiion">3:00</span>
+                            <audio src="" id="listaudio"></audio>
+                        </li>
+
+                        <li>
+                            <div class="row">
+                                <span>Ikon Anywhere - Ikon</span>
+                                <h6>Audio Library</h6>
+                            </div>
+                            <i class="bi playList bi-play-circle-fill" id="1"></i>
+
+                            <span class=" audio-duratiion">3:00</span>
+                            <audio src="" id="listaudio"></audio>
+                        </li>
+
+                        <li>
+                            <div class="row">
+                                <span>Ikon Anywhere - Ikon</span>
+                                <h6>Audio Library</h6>
+                            </div>
+                            <i class="bi playList bi-play-circle-fill" id="1"></i>
+
+                            <span class=" audio-duratiion" >3:00</span>
+                            <audio src="" id="listaudio"></audio>
+                        </li>
+
+                        <li>
+                            <div class="row">
+                                <span>Ikon Anywhere - Ikon</span>
+                                <h6>Audio Library</h6>
+                            </div>
+                            <i class="bi playList bi-play-circle-fill" id="1"></i>
+
+                            <span class=" audio-duratiion">3:00</span>
+                            <audio src="" id="listaudio"></audio>
+                        </li>
+
+                        <li>
+                            <div class="row">
+                                <span>Ikon Anywhere - Ikon</span>
+                                <h6>Audio Library</h6>
+                            </div>
+                            <i class="bi playList bi-play-circle-fill" id="1"></i>
+
+                            <span class=" audio-duratiion">3:00</span>
+                            <audio src="" id="listaudio"></audio>
+                        </li>
+
+                        <li>
+                            <div class="row">
+                                <span>Ikon Anywhere - Ikon</span>
+                                <h6>Audio Library</h6>
+                            </div>
+                            <i class="bi playList bi-play-circle-fill" id="1"></i>
+
+                            <span class=" audio-duratiion">3:00</span>
+                            <audio src="" id="listaudio"></audio>
+                        </li>
+
+                        <li>
+                            <div class="row">
+                                <span>Ikon Anywhere - Ikon</span>
+                                <h6>Audio Library</h6>
+                            </div>
+                            <i class="bi playList bi-play-circle-fill" id="1"></i>
+
+                            <span class=" audio-duratiion">3:00</span>
+                            <audio src="" id="listaudio"></audio>
+                        </li>
+
+
+                        <li>
+                            <div class="row">
+                                <span>Ikon Anywhere - Ikon</span>
+                                <h6>Audio Library</h6>
+                            </div>
+                            <i class="bi playList bi-play-circle-fill" id="1"></i>
+
+                            <span class=" audio-duratiion">3:00</span>
+                            <audio src="" id="listaudio"></audio>
+                        </li>
+
+
+                        <li>
+                            <div class="row">
+                                <span>Ikon Anywhere - Ikon</span>
+                                <h6>Audio Library</h6>
+                            </div>
+                            <i class="bi playList bi-play-circle-fill" id="1"></i>
+
+                            <span class=" audio-duratiion">3:00</span>
+                            <audio src="" id="listaudio"></audio>
+                        </li>
+
+
+                        <li>
+                            <div class="row">
+                                <span>Ikon Anywhere - Ikon</span>
+                                <h6>Audio Library</h6>
+                            </div>
+                            <i class="bi playList bi-play-circle-fill" id="1"></i>
+                            <span class=" audio-duratiion">3:00</span>
+                        </li>
+                        -->
+                    </ul>
+                </div>
+            </header>
+
+            <!--icons of song-->
+            <div class="master__play">
+                
+                <div class="song_singer">
+                    <h3 id="title">
+                        Vande mstaram
+                    </h3>
+                    <span class="songsubtitle">
+                        Bankim Chandra
+                    </span>
+                </div>
+                
+                    
+                
+                <div class="bar">
+                    <input type="range" id="seek" min="0" max="100">
+                    <div class="bar2" id="bar2"></div>
+                    <div class="dot" id="dot"></div>
+                </div>
+                
+                <div class="time">
+                    <span id="currentStart">0:00</span>
+        
+                    <span id="currentEnd">0:60</span>
+                </div>
+
+                <div class="icon">
+                    <i class="bi bi-skip-start-fill" id="back"></i>
+                    <div class="play_icon" id="play">
+                        <i class="bi bi-play-circle-fill"></i>
+                    </div>
+                    <i class="bi bi-skip-end-fill" id="next"></i>
+                </div>
+                
+                
+                <div class="vol">
+
+                    <div class="wave" id="waves">
+                        <div class="wave1"></div>
+                        <div class="wave1"></div>
+                        <div class="wave1"></div>
+                    </div>
+                    <!--             <i class="bi shuffle bi-music-note-beamed"></i>
+-->
+                    <div class="vol_range">
+                        <i class="bi bi-volume-up-fill" id="vol__icon"></i>
+                        <input type="range" name="" id="vol" min="0" max="100">
+                        <div class="vol__bar"></div>
+                        <div class="dot" id="vol__dot"></div>
+                    </div>
+                    <!--                    <i class="bi bi-cloud-arrow-down" id="download_music"></i>
+-->
+                </div>
+            
+            </div> <!--master play end-->
+
+
+            
+
+            
+            
+        </div> <!--End of Player-->
+        
+    </div><!--End of Container-->
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+
+<!-- <div class="song_items">
+                <div class="song_detail">
+                    <h5>Beauz & Java</h5>
+                    <span>Alan walker</span>
+                </div>
+    
+                <div class="progress">
+                    <div class="bar">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="time">
+                    <span class="current_Start">0:00</span>
+                    <span class="current_End">3:00</span>
+                </div>
+    
+                <div class="cont_icon">
+                    <i id="repeat" class="bi bi-repeat">Repeat</i>
+                    <i id="back" class="bi bi-skip-backward">Back</i>
+                    <i id="next" class="bi bi-skip-forward"></i>
+                    <div class="pl_pa">
+                        <i id="paly" class="bi bi-play"></i>
+    
+                    </div>
+    
+                </div>
+
+            </div>-->
