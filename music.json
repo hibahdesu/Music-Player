@@ -1,0 +1,212 @@
+[
+    {
+        "num": "1",
+        "songName": "The Spectre",
+        "singer": "Herry", 
+        "img": "./images/Alan.jpg",
+        "song": "./audio/Alan Walker - The Spectre.mp3"
+},
+{
+    "num": "2",
+    "songName": "Out of Time",
+    "singer": "Kalax", 
+    "img": "./images/OutofTime.jpg",
+    "song": "./audio/Kalax - Out of Time (feat. Pyxis, Jay Diggs) [Official Music Video].mp3"
+},
+{
+    "num": "3",
+    "songName": "The Way You Move",
+    "singer": "Sara Phillips", 
+    "img": "./images/sara.jpg",
+    "song": "./audio/Sara Phillips - The Way You Move (From Original Motion Picture Soundtrack En Brazos de un Asesino).mp3"
+},
+{
+    "num": "4",
+    "songName": "Desert Rose",
+    "singer": "Sting", 
+    "img": "./images/StingDesertRose.jpg",
+    "song": "./audio/Sting - Desert Rose.mp3"
+},
+{
+    "num": "5",
+    "songName": "Infected",
+    "singer": "Sickick", 
+    "img": "./images/sickickln.jpg",
+    "song": "./audio/Sickick - Infected.mp3"
+},
+{
+    "num": "6",
+    "songName": "Signs",
+    "singer": "Kalax", 
+    "img": "./images/babydriver.jpg",
+    "song": "./audio/Kalax - Signs (Baby Driver Edit).mp3"
+},
+{
+    "num": "7",
+    "songName": "Oh la la",
+    "singer": "David tavare", 
+    "img": "./images/DavidtavareOhlala.jpg",
+    "song": "./audio/David tavare Oh la la.mp3"
+},
+{
+    "num": "8",
+    "songName": "After Dark",
+    "singer": "Mr.Kitty", 
+    "img": "./images/MrKittyAfterDark.jpg",
+    "song": "./audio/Mr.Kitty - After Dark.mp3"
+},
+{
+    "num": "9",
+    "songName": "Clock Strikes",
+    "singer": "ONE OK ROCK", 
+    "img": "./images/ONEOKROCKClockStrikes.jpg",
+    "song": "./audio/ONE OK ROCK - Clock Strikes [Official Music Video].mp3"
+},
+{
+    "num": "10",
+    "songName": "After Dark",
+    "singer": "Mr.Kitty", 
+    "img": "./images/MrKittyAfterDark.jpg",
+    "song": "./audio/Mr.Kitty - After Dark.mp3"
+},
+{
+    "num": "11",
+    "songName": "Signs",
+    "singer": "Kalax", 
+    "img": "./images/babydriver.jpg",
+    "song": "./audio/Kalax - Signs (Baby Driver Edit).mp3"
+},
+{
+    "num": "12",
+    "songName": "Infected",
+    "singer": "Sickick", 
+    "img": "./images/SickickInfected.jpg",
+    "song": "./audio/Sickick - Infected.mp3"
+},
+{
+    "num": "13",
+    "songName": "The Way You Move",
+    "singer": "Sara Phillips", 
+    "img": "./images/sara.jpg",
+    "song": "./audio/Sara Phillips - The Way You Move (From Original Motion Picture Soundtrack En Brazos de un Asesino).mp3"
+},
+{
+    "num": "14",
+    "songName": "The Spectre",
+    "singer": "Alan Walker", 
+    "img": "./images/Alan.jpg",
+    "song": "./audio/Alan Walker - The Spectre.mp3"
+},
+{
+    "num": "15",
+    "songName": "Havana",
+    "singer": "Camila Cabello", 
+    "img": "./images/CamilaCabelloHavana.jpg",
+    "song": "./audio/Camila Cabello - Havana (Audio) ft. Young Thug.mp3"
+},
+{
+    "num": "16",
+    "songName": "Give It to Me",
+    "singer": "Altégo", 
+    "img": "./images/AltégoGiveIttoMe.jpg",
+    "song": "./audio/Altégo - Give It to Me X Promiscuous (Tiktok Remix) [Lyrics].mp3"
+},
+{
+    "num": "17",
+    "songName": "Sugar & Brownies ",
+    "singer": "Dharia", 
+    "img": "./images/DhariaSugarBrownies.jpg",
+    "song": "./audio/Dharia - Sugar & Brownies (by Monoir) [Official Video].mp3"
+},
+{
+    "num": "18",
+    "songName": "Out of Time ",
+    "singer": "Kalax", 
+    "img": "./images/OutofTime.jpg",
+    "song": "./audio/Kalax - Out of Time (feat. Pyxis, Jay Diggs) [Official Music Video].mp3"
+},
+{
+    "num": "19",
+    "songName": "like that",
+    "singer": "エルオーエル", 
+    "img": "./images/lolo.jpg",
+    "song": "./audio/lol.mp3"
+},
+{
+    "num": "20",
+    "songName": "Fever Fever",
+    "singer": "エルオーエル", 
+    "img": "./images/lolエルオエル.jpg",
+    "song": "./audio/lol-エルオーエル- 「Fever  Fever」Performance Video Fix ver..mp3"
+},
+{
+    "num": "21",
+    "songName": "SAVE YOURSELF",
+    "singer": "ONE OK ROCK", 
+    "img": "./images/ONEOKROCKSAVEYOURSELF.jpg",
+    "song": "./audio/ONE OK ROCK - SAVE YOURSELF [OFFICIAL VIDEO].mp3"
+},
+{
+    "num": "22",
+    "songName": "Let Me Let You Go",
+    "singer": "ONE OK ROCK", 
+    "img": "./images/ONEOKROCKLetMeLetYouo.jpg",
+    "song": "./audio/ONE OK ROCK - Let Me Let You Go [Live Documentary Video].mp3"
+},
+{
+    "num": "23",
+    "songName": "Heartache",
+    "singer": "ONE OK ROCK", 
+    "img": "./images/ONEOKROCKHeartache.jpg",
+    "song": "./audio/ONE OK ROCK - Heartache [Studio Jam Session].mp3"
+},
+{
+    "num": "24",
+    "songName": "Oh la la",
+    "singer": "David tavare", 
+    "img": "./images/DavidtavareOhlala.jpg",
+    "song": "./audio/David tavare Oh la la.mp3"
+},
+{
+    "num": "25",
+    "songName": "Otro Día Más Sin Verte",
+    "singer": "Jon Secada", 
+    "img": "./images/JonSecadaOtroDía.jpg",
+    "song": "./audio/Jon Secada - Otro Día Más Sin Verte (Letra).mp3"
+},
+{
+    "num": "26",
+    "songName": "Just Another Day",
+    "singer": "Jon Secada", 
+    "img": "./images/JonSecadaJustAnotherDay.jpg",
+    "song": "./audio/Jon Secada - Just Another Day (Official Music Video).mp3"
+},
+{
+    "num": "27",
+    "songName": "Hot Summer Night",
+    "singer": "David Tavaré", 
+    "img": "./images/DavidTavaréfeat.2Eivissa.jpg",
+    "song": "./audio/David Tavaré feat. 2 Eivissa - Hot Summer Night.mp3"
+},
+{
+    "num": "28",
+    "songName": "Amor Quédate",
+    "singer": "JENCARLOS CANELA", 
+    "img": "./images/JencarlosCanela2.jpg",
+    "song": "./audio/JENCARLOS CANELA - ＂Amor Quédate＂  Video Oficial.mp3"
+},
+{
+    "num": "29",
+    "songName": "Mi Corazón Insiste",
+    "singer": "JENCARLOS CANELA", 
+    "img": "./images/JENCARLOSCANELA.jpg",
+    "song": "./audio/Jencarlos Canela - NEW ＂Mi Corazón Insiste＂ Con Letra.mp3"
+},
+{
+    "num": "30",
+    "songName": "Più Bella Cosa",
+    "singer": "Eros Ramazzotti", 
+    "img": "./images/ErosRamazzotti.jpg",
+    "song": "./audio/Eros Ramazzotti - Più Bella Cosa (Official Video).mp3"
+}
+]
